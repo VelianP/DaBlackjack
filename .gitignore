@@ -1,0 +1,16 @@
+*.stackdump
+*git.sh
+_ReSharper.*
+/src
+/nbproject
+.idea
+.settings
+bin
+obj
+*.suo
+*.user
+*.gz
+*.sql
+.directory
+.DS_Store
+Thumbs.db
