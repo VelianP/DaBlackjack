@@ -93,8 +93,11 @@ namespace DaBlackjack
             graphics.PreferredBackBufferHeight = WINDOW_HEIGHT;
             graphics.PreferredBackBufferWidth = WINDOW_WIDTH;
 
+            // visible cursor
             IsMouseVisible = true;
 
+            // window always on top
+            User32.SetWindowPos((uint)this.Window.Handle, -1, 0, 0, graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight, 0);
         }
 
         /// <summary>
@@ -119,6 +122,7 @@ namespace DaBlackjack
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
+            // init game
             InitNewGame();
 
         }
