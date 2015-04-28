@@ -140,11 +140,12 @@ namespace XnaCards
         private void LoadContent(ContentManager contentManager)
         {
             // load content and set draw rectangle size
-            string spriteName = "decks\\simple\\" + suit.ToString() + "/" + rank.ToString();
+            string deckName = "xpat2-nox";
+            string spriteName = "decks\\" + deckName + "\\" + suit.ToString() + "/" + rank.ToString();
             faceUpSprite = contentManager.Load<Texture2D>(spriteName);
             drawRectangle.Width = faceUpSprite.Width;
             drawRectangle.Height = faceUpSprite.Height;
-            faceDownSprite = contentManager.Load<Texture2D>("decks\\simple\\Back");
+            faceDownSprite = contentManager.Load<Texture2D>("decks\\" + deckName +"\\Backs\\Back");
         }
 
         #endregion

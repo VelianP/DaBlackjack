@@ -317,8 +317,285 @@
     <Folder Include="sounds\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="decks\simple\Back.png">
+    <Compile Include="decks\simple\Backs\Back.png">
       <Name>Back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="decks\xpat2-nox\Backs\Back.png">
+      <Name>Back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Backs\Back2.png">
+      <Name>Back2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Backs\Back3.png">
+      <Name>Back3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Clubs\Ace.png">
+      <Name>Ace</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Clubs\Eight.png">
+      <Name>Eight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Clubs\Five.png">
+      <Name>Five</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Clubs\Four.png">
+      <Name>Four</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Clubs\Jack.png">
+      <Name>Jack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Clubs\King.png">
+      <Name>King</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Clubs\Nine.png">
+      <Name>Nine</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Clubs\Queen.png">
+      <Name>Queen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Clubs\Seven.png">
+      <Name>Seven</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Clubs\Six.png">
+      <Name>Six</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Clubs\Ten.png">
+      <Name>Ten</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Clubs\Three.png">
+      <Name>Three</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Clubs\Two.png">
+      <Name>Two</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Diamonds\Ace.png">
+      <Name>Ace</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Diamonds\Eight.png">
+      <Name>Eight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Diamonds\Five.png">
+      <Name>Five</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Diamonds\Four.png">
+      <Name>Four</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Diamonds\Jack.png">
+      <Name>Jack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Diamonds\King.png">
+      <Name>King</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Diamonds\Nine.png">
+      <Name>Nine</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Diamonds\Queen.png">
+      <Name>Queen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Diamonds\Seven.png">
+      <Name>Seven</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Diamonds\Six.png">
+      <Name>Six</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Diamonds\Ten.png">
+      <Name>Ten</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Diamonds\Three.png">
+      <Name>Three</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Diamonds\Two.png">
+      <Name>Two</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Hearts\Ace.png">
+      <Name>Ace</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Hearts\Eight.png">
+      <Name>Eight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Hearts\Five.png">
+      <Name>Five</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Hearts\Four.png">
+      <Name>Four</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Hearts\Jack.png">
+      <Name>Jack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Hearts\King.png">
+      <Name>King</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Hearts\Nine.png">
+      <Name>Nine</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Hearts\Queen.png">
+      <Name>Queen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Hearts\Seven.png">
+      <Name>Seven</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Hearts\Six.png">
+      <Name>Six</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Hearts\Ten.png">
+      <Name>Ten</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Hearts\Three.png">
+      <Name>Three</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Hearts\Two.png">
+      <Name>Two</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Spades\Ace.png">
+      <Name>Ace</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Spades\Eight.png">
+      <Name>Eight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Spades\Five.png">
+      <Name>Five</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Spades\Four.png">
+      <Name>Four</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Spades\Jack.png">
+      <Name>Jack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Spades\King.png">
+      <Name>King</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Spades\Nine.png">
+      <Name>Nine</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Spades\Queen.png">
+      <Name>Queen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Spades\Seven.png">
+      <Name>Seven</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Spades\Six.png">
+      <Name>Six</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Spades\Ten.png">
+      <Name>Ten</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Spades\Three.png">
+      <Name>Three</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="decks\xpat2-nox\Spades\Two.png">
+      <Name>Two</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
