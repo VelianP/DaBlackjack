@@ -22,7 +22,7 @@ namespace DaBlackjack
         SpriteBatch spriteBatch;
 
         const int WINDOW_WIDTH = 800;
-        const int WINDOW_HEIGHT = 600;
+        const int WINDOW_HEIGHT = 700;
 
         // max valid blackjack score for a hand
         const int MAX_HAND_VALUE = 21;
@@ -33,9 +33,9 @@ namespace DaBlackjack
         List<Card> playerHand = new List<Card>();
 
         // hand placement
-        const int TOP_CARD_OFFSET = 100;
+        const int TOP_CARD_OFFSET = 110;
         const int HORIZONTAL_CARD_OFFSET = 150;
-        const int VERTICAL_CARD_SPACING = 100;
+        const int VERTICAL_CARD_SPACING = 130;
 
         // messages
         SpriteFont messageFont;
