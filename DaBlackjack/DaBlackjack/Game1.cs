@@ -9,8 +9,6 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 
-using XnaCards;
-
 namespace DaBlackjack
 {
     /// <summary>
@@ -42,6 +40,7 @@ namespace DaBlackjack
         const string SCORE_MESSAGE_PREFIX = "Score: ";
         Message playerScoreMessage;
         Message playerBustMessage;
+        Message dealerScoreMessage;
         Message WinnerMessage;
         Message FeedbackMessage;
         Message handsWonMessage;
@@ -51,7 +50,6 @@ namespace DaBlackjack
         const int SCORE_MESSAGE_TOP_OFFSET = 25;
         const int HORIZONTAL_MESSAGE_OFFSET = HORIZONTAL_CARD_OFFSET;
         Vector2 winnerMessageLocation = new Vector2(WINDOW_WIDTH/2, WINDOW_HEIGHT/2);
-        Vector2 loserMessageLocation = new Vector2(WINDOW_WIDTH/2, WINDOW_HEIGHT/3);
 
         // menu buttons
         Texture2D quitButtonSprite;
@@ -307,7 +305,7 @@ namespace DaBlackjack
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.Goldenrod);
+            GraphicsDevice.Clear(Color.SteelBlue);
 
             spriteBatch.Begin();
 
@@ -334,7 +332,6 @@ namespace DaBlackjack
             {
                 menuButton.Draw(spriteBatch);
             }
-
 
             spriteBatch.End();
 
@@ -513,7 +510,7 @@ namespace DaBlackjack
             playerScoreMessage = new Message(SCORE_MESSAGE_PREFIX + GetBlackjackScore(playerHand).ToString(), messageFont, new Vector2(HORIZONTAL_MESSAGE_OFFSET, SCORE_MESSAGE_TOP_OFFSET));
             messages.Add(playerScoreMessage);
 
-            Message dealerScoreMessage = new Message("Score: " + (GetBlackjackScore(dealerHand) - GetBlackjackCardValue(dealerHand[0])).ToString(), messageFont, new Vector2(WINDOW_WIDTH - HORIZONTAL_MESSAGE_OFFSET, SCORE_MESSAGE_TOP_OFFSET));
+            dealerScoreMessage = new Message("Score: " + (GetBlackjackScore(dealerHand) - GetBlackjackCardValue(dealerHand[0])).ToString(), messageFont, new Vector2(WINDOW_WIDTH - HORIZONTAL_MESSAGE_OFFSET, SCORE_MESSAGE_TOP_OFFSET));
             messages.Add(dealerScoreMessage);
 
             WinnerMessage = new Message("", messageFont, winnerMessageLocation);

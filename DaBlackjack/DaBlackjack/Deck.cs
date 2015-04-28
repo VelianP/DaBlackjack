@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace XnaCards
+namespace DaBlackjack
 {
     /// <summary>
     /// Provides a class for a deck of cards

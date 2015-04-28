@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace XnaCards
+namespace DaBlackjack
 {
     /// <summary>
     /// An enumeration for card ranks
